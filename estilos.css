@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  color: #243247;<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primer sitio web</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Mi primer sitio web</h1>
+    <p>Conociendo y compartiendo algo interesante</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre este tema</h2>
+      <p>Escribe aquí una presentación de tu tema. Explica por qué lo elegiste
+      y comparte dos datos interesantes.</p>
+    </section>
+
+    <section>
+
+  line-height: 1.6;
+}
+
+header {
+  background: #17365d;
+  color: white;
+  text-align: center;
+  padding: 35px 15px;
+}
+
+main {
+  max-width: 850px;
+  margin: 25px auto;
+  padding: 0 18px;
+}
+
+section {
+  background: white;
+  margin-bottom: 18px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #1f5b8f;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 18px;
+  background: #dbe5ef;
+}
